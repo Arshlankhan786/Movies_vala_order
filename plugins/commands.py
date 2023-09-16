@@ -33,7 +33,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton(""❌ Nᴏᴛ Aʟʟᴏᴡ Tᴏ Aᴅᴅ Gʀᴏᴜᴘ ❌", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("Nᴏᴛ Aʟʟᴏᴡ Tᴏ Aᴅᴅ Gʀᴏᴜᴘ", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Mᴀɪɴ Gʀᴏᴜᴘ 💥", url="https://t.me/movies_vala_family"), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Movies_Editor")
@@ -64,7 +64,7 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("❌ Nᴏᴛ Aʟʟᴏᴡ Tᴏ Aᴅᴅ Gʀᴏᴜᴘ ❌", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("Nᴏᴛ Aʟʟᴏᴡ Tᴏ Aᴅᴅ Gʀᴏᴜᴘ", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Mᴀɪɴ Gʀᴏᴜᴘ 💥", url="https://t.me/movies_vala_family"), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Movies_Editor")
