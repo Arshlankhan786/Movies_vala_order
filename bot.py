@@ -28,7 +28,7 @@ class Bot(Client):
             name="Pathan-Bot",
             api_id=26058820,
             api_hash=cf34db4ed69493d377a2516056711cb6,
-            bot_token=6490836786:AAEN4m2OyTEVciYGc8KPM2RZBY-udl3QV9o,
+            bot_token=Bot_Token,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=10,
