@@ -26,9 +26,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Pathan-Bot",
-            api_id=26058820,
-            api_hash=cf34db4ed69493d377a2516056711cb6,
-            bot_token=Bot_Token,
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=10,
