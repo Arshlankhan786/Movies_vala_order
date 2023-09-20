@@ -27,3 +27,21 @@ services:
         sync: false
       - key: ADMIN
         sync: false
+      - key: WEBHOOK
+        sync: false
+      - key: SHORT_API
+        sync: false
+      - key: SHORT_URL
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
+      - Key: MAX_RIST_BTNS
+        sync: false
+      - key: CUSTOM_FILE_CAPTION
+        sync: false
+      - key: SUPPORT_CHAT
+        sync: false
+      - key: IMDB
+        sync: false
+      - key: PM_IMDB
+        sync: false
