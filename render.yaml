@@ -3,7 +3,7 @@ services:
     plan: free
     name: Pathan-BOT
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -U -r requirements.txt
     startCommand: python bot.py
     repo: https://github.com/Arshlankhan786/Movies_vala_order/tree/main
     branch: main
